@@ -102,27 +102,43 @@ quantum-routing-optimization/
 │
 └── README.md
 
+---
+
 ## 🔄 Simulation Workflow
 
 The routing optimization framework follows a structured pipeline that simulates network creation, evaluates routing algorithms, and compares their sustainability performance.
 
-[ Network Generation ] 
-         ↓
-(Waxman Topology Creation) 
-         ↓
-[ Link Metric Assignment ] 
+```
+[ Network Generation ]
+        ↓
+(Waxman Topology Creation)
+        ↓
+[ Link Metric Assignment ]
 (Latency / Energy / Carbon)
-         ↓
-[ Candidate Path Generation ] 
+        ↓
+[ Candidate Path Generation ]
 (Yen's K-Shortest Paths)
-         ↓
-[ Routing Algorithm Execution ] 
+        ↓
+[ Routing Algorithm Execution ]
 (Shortest / Energy-Aware / Quantum-Inspired)
-         ↓
-[ Performance Evaluation ] 
+        ↓
+[ Performance Evaluation ]
 (Energy / Carbon / PEI)
-         ↓
+        ↓
 [ Visualization & Analysis ]
+```
+
+---
 
 ## ⚠️ Disclaimer
-Note: This project is a research simulation for educational purposes. The quantum-inspired routing approach is inspired by QAOA and QUBO optimization models, but the optimization is executed using classical computation in MATLAB rather than real quantum hardware.
+
+**Note:** This project is a **research simulation for educational purposes.**
+
+The **quantum-inspired routing approach** is inspired by:
+
+- **QAOA (Quantum Approximate Optimization Algorithm)**
+- **QUBO (Quadratic Unconstrained Binary Optimization)**
+
+However, the optimization is executed using **classical computation in MATLAB**, not on real quantum hardware.
+
+The goal is to explore how **quantum-inspired optimization techniques can influence sustainable routing strategies in communication networks.**
